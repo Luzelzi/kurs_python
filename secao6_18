@@ -1,0 +1,12 @@
+n = int(input("Quantos numeros serão digitados?: "))
+cont = 0
+numMaior = 0
+for n in range (1, n + 1):
+    print(f"Digite 0 {n}º numero: ")
+    num = int(input())
+
+    if num > numMaior:
+        numMaior = num
+
+        if num == numMaior:
+            cont = cont + 1
